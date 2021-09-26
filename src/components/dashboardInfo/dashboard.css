@@ -1,0 +1,50 @@
+
+.dashboard{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+.postsList{
+    padding-top: 20px;
+    width: 50%;
+    display: flex;
+    height: auto;
+    display: inline-flex;
+    float: left;
+    
+}
+
+.dashboardItems{
+    flex: 1;
+    margin: 0px 20px;
+    padding:10px 10px 30px 10px;
+    border-radius: 10px;
+    cursor:pointer;
+
+    -webkit-box-shadow: 0px 10px 15px -10px  rgba(0,0,0,0); 
+box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+}
+.dashboardTitle{
+    font-size: 20px;
+    color: gray;
+}
+.dashboardContainer{
+    margin:10px 0px;
+    display: flex;
+    align-items: center;
+}
+.dashboardPost{
+font-size: 30px;
+font-weight: 600;
+margin: auto;
+}
+.topFivePost{
+    font-size: 30px;
+    font-weight: 600;
+}
+.dashboardPostNo{
+    /* display: flex;
+    align-items: center; */
+    margin:auto;
+}
